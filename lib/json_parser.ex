@@ -1,4 +1,7 @@
 defmodule JsonParser do
+  @moduledoc """
+  Core module.
+  """
 
   @doc ~S"""
   Receives a raw json string as input and returns `{:ok, result}` id the parsing

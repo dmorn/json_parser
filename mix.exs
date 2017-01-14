@@ -28,6 +28,7 @@ defmodule JsonParser.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:ex_doc, "~> 0.14.5"}]
+    [{:ex_doc, "~> 0.14.5"},
+     {:credo, "~> 0.5", only: [:dev, :test]}]
   end
 end
