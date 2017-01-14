@@ -1,0 +1,11 @@
+run.config:
+  engine: elixir
+
+  engine.config:
+    runtime: elixir-1.4
+
+  cache_dirs:
+    - _build
+    - deps
+
+  fs_watch: true
