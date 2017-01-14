@@ -10,8 +10,6 @@ The Project allows to parse jsons through a the `mix` tasks provided or directly
 Read the docs for further information.
 
 ## Installation
-TODO: complete and fix this
-
 The package can be installed by adding `json_parser` to your list of dependencies in `mix.exs`:
 
 ```elixir
