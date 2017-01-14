@@ -1,12 +1,16 @@
 # JsonParser
 
-Notes
+## Inspiration
+I read Andrea Leopardi's great [article](http://andrealeopardi.com/posts/tokenizing-and-parsing-in-elixir-using-leex-and-yecc/) about tokenizing and parsing string and its actual utility in the real world.
 
-should I use `(["'])(?:(?=(\\?))\2.)*?\1` to match any character inside the quotes and avoid
-the double quotes as a token?
+After that, I decided to build a library that parses json formatted strings using this approach.
 
+## Description
+The Project allows to parse jsons through a the `mix` tasks provided or directly using the `JsonParser` module.
+Read the docs for further information.
 
 ## Installation
+TODO: complete and fix this
 
 The package can be installed by adding `json_parser` to your list of dependencies in `mix.exs`:
 
@@ -17,4 +21,3 @@ end
 ```
 
 You can specify the release by adding `tag: "x.x.x"`
-
