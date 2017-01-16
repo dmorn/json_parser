@@ -2,7 +2,7 @@ defmodule Mix.Tasks.JsonParser.Validate do
   @moduledoc """
   Recognised arguments:
     - `--source path/to/file`
-    - `--raw '{"foo : "bar""}'`
+    - `--raw '{"foo : "bar"}'`
   """
 
   @shortdoc "Validates the given json (file/raw)"

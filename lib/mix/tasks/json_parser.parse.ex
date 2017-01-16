@@ -2,7 +2,7 @@ defmodule Mix.Tasks.JsonParser.Parse do
   @moduledoc """
   Recognised arguments:
     - `--source path/to/file`
-    - `--raw '{"foo : "bar""}'`
+    - `--raw '{"foo : "bar"}'`
   """
   @shortdoc "Parses the given json (file/raw)"
 

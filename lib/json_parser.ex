@@ -23,6 +23,6 @@ defmodule JsonParser do
          {:ok, result}    <- :json_parser.parse(tokens)
     do
       {:ok, result}
-    end
+    end 
   end
 end
