@@ -4,9 +4,9 @@ defmodule Src.JsonLexerTest do
   describe "Basic lexer functionalities" do
 
     test "Accepted input tokens" do
-      input = '"ciao" 123 : { 3.14 ]'
+      input = '"ciao" 123 : { 3.14 ] true null'
       assert {:ok, tokens, _} = parse(input)
-      assert ^tokens = [{:string, 1 , 'ciao'}, {:int, 1, 123}, {:":", 1}, {:"{", 1}, {:float, 1, 3.14}, {:"]", 1}]
+      assert ^tokens = [{:string, 1 , 'ciao'}, {:int, 1, 123}, {:":", 1}, {:"{", 1}, {:float, 1, 3.14}, {:"]", 1}, {true, 1}, {nil, 1}]
     end
 
     test "Failure with illegal char" do
