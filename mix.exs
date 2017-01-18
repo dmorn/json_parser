@@ -3,7 +3,7 @@ defmodule JsonParser.Mixfile do
 
   def project do
     [app: :json_parser,
-     version: "1.0.5",
+     version: "2.0.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
