@@ -6,7 +6,7 @@ I read Andrea Leopardi's great [article](http://andrealeopardi.com/posts/tokeniz
 After that, I decided to build a library that parses json formatted strings using this approach.
 
 ## Description
-The Project allows to parse jsons through a the `mix` tasks provided or directly using the `JsonParser` module.
+The Project allows json parsing through the `mix` tasks provided or directly using the `JsonParser` module.
 Read the docs for further information.
 
 ## Installation
