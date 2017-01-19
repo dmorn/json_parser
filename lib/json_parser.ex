@@ -18,6 +18,7 @@ defmodule JsonParser do
 
     iex(3)> JsonParser.parse('{"foo" : bar}')
     {:error, {1, :json_lexer, {:illegal, 'b'}}, 1}
+
   ```
   """
   def parse(str) do

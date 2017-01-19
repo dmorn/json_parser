@@ -73,7 +73,7 @@
         "removePageCache": "/content/admin/remove?cache=pages&id=",
         "removeTemplateCache": "/content/admin/remove?cache=templates&id=",
         "fileTransferFolder": "/usr/local/tomcat/webapps/content/fileTransferFolder",
-        "lookInContext": 1,
+        "lookInContext": 123,
         "adminGroupID": 4,
         "betaServer": true}}],
   "servlet-mapping": {

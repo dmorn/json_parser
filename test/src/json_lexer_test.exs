@@ -13,6 +13,11 @@ defmodule Src.JsonLexerTest do
       input = '{"ciao" => 123, "hello" : 321}'
       assert {:error, _, _} = parse(input)
     end
+
+    test "Refute alphanumeric input" do
+      input =  '12ff'
+      assert {:error, _, _} = parse(input)
+    end
   end
 
   defp parse(input), do: input |> to_charlist() |> :json_lexer.string()
